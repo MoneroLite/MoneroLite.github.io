@@ -154,3 +154,98 @@ h3 {
 .footer__text {
   color: #fff;
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .header {
+    position: relative;
+    overflow: hidden;
+  }
+  .header__img {
+    position: absolute;
+    display: block;
+    right: -20%;
+  }
+  .header__content {
+    width: 70%;
+  }
+  .blocks__item {
+    width: 29.7rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .header__img {
+    right: -35%;
+  }
+  .blocks__item {
+    width: 21.7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+  .header__img {
+    display: none;
+  }
+  .header {
+    text-align: center;
+  }
+  .header__content {
+    width: 100%;
+  }
+  .header__text {
+    width: 47rem;
+    margin: 0 auto;
+    margin-bottom: 8.5rem;
+  }
+  .header__btn {
+    width: 40rem;
+    margin: 0 auto;
+  }
+  .blocks {
+    flex-direction: column;
+    text-align: center;
+  }
+  .blocks__item {
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    width: 40rem;
+  }
+  .blocks__item-img {
+    margin-bottom: 0rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: auto;
+  }
+  .header__text {
+    width: 30rem;
+  }
+  .header__btn {
+    width: 28rem;
+  }
+  .blocks__item {
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    width: 30rem;
+  }
+  .blocks__item-img {
+    margin-bottom: 0rem;
+  }
+  .actions__form-item {
+    width: 90%;
+  }
+  .action__btn {
+    width: 90%;
+  }
+}
