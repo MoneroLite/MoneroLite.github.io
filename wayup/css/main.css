@@ -1,0 +1,156 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  background: #ffd429;
+  text-decoration: none;
+  color: #2e2a1b;
+}
+
+.btn:hover {
+  background: #ebbc02;
+}
+
+.header {
+  background-image: linear-gradient(to top, #4ebefe, #378fd9);
+  padding: 6.2rem 0 7.2rem;
+}
+
+.header__logo {
+  margin-top: 1rem;
+}
+
+.header__content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header__intro {
+  color: #fff;
+}
+.header__title {
+  margin-bottom: 4.7rem;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: 0.74px;
+}
+
+.header__title span {
+  font-size: 5.9rem;
+}
+
+.header__text {
+  width: 40rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: 0.32px;
+  margin-bottom: 4.5rem;
+}
+
+.header__btn {
+  display: block;
+  width: 20.2rem;
+  padding: 2.1rem 0;
+  text-align: center;
+  border-radius: 100px;
+}
+
+.waiting {
+  text-align: center;
+  padding: 10.8rem 0 12rem;
+  background: #fff;
+}
+
+.waiting__title {
+  margin-bottom: 7.3rem;
+  font-size: 3rem;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blocks__item {
+  width: 31.7rem;
+}
+
+.blocks__item-img {
+  margin-bottom: 3rem;
+}
+
+.blocks__item-title {
+  font-size: 1.7rem;
+  margin-bottom: 1.7rem;
+}
+
+.blocks__item-text {
+  line-height: 1.47;
+  letter-spacing: 0.3px;
+  font-size: 1.5rem;
+}
+
+.actions {
+  padding: 10.4rem 0 10.6rem 0;
+  background: #ecf3f8;
+  text-align: center;
+}
+
+.actions__title {
+  margin-bottom: 5.7rem;
+}
+
+.actions__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.actions__form-item {
+  width: 34.3rem;
+  height: 4.8rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  border: 1px solid #bbbbbb;
+}
+
+.action__btn {
+  width: 35rem;
+  height: 5rem;
+  margin: 0 auto;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 6.2rem 0;
+  background-color: #164d7a;
+  text-align: center;
+}
+
+.footer__text {
+  color: #fff;
+}
