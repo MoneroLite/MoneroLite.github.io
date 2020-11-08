@@ -1,0 +1,313 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  background: #202020;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif; */
+.header {
+  background: url(../img/header-bg.jpg) top left/ cover no-repeat fixed;
+  padding: 331px 0 41px;
+  text-align: center;
+}
+.header__title {
+  font-family: "Merriweather", serif;
+  box-sizing: content-box;
+  font-size: 55px;
+  line-height: 90px;
+  width: 640px;
+  margin: 0 auto;
+  border: 1px solid rgba(143, 143, 143, 0.5);
+  padding: 60px 55px;
+}
+.header__title span {
+  color: #f7ac53;
+}
+.header-list {
+  margin-top: 32px;
+  margin-bottom: 214px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.header-list__item {
+  padding: 0 10px;
+  border-right: 1px solid #f7ac53;
+}
+
+.header-list__item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-list__item:last-child {
+  border-right: none;
+}
+
+.header-wrap {
+  margin-top: 98px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.header-wrap__link {
+  position: relative;
+  padding-right: 22px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-wrap__link::after {
+  content: "";
+  background-image: url(../img/arrow-right.png);
+  width: 11px;
+  height: 7px;
+  position: absolute;
+  transform: translateY(50%);
+  margin-left: 11px;
+}
+
+.services {
+  text-align: center;
+  padding-bottom: 150px;
+}
+.top-line {
+  width: 2px;
+  height: 126px;
+  background-color: #feb960;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.services-text {
+  color: #feb960;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.services-title {
+  font-family: "Merriweather", serif;
+  width: 650px;
+  margin: 0 auto;
+  font-size: 40px;
+  margin-bottom: 116px;
+  line-height: 65px;
+}
+.services-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.services-wrapper__item {
+  width: 224px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding-top: 46px;
+  position: relative;
+}
+.services-wrapper__item::after {
+  content: "";
+  background-image: url(../img/services1.png);
+  position: absolute;
+  top: 0;
+  width: 19px;
+  height: 21px;
+}
+
+.services-wrapper__item:nth-child(2)::after {
+  background-image: url(../img/services2.png);
+  width: 21px;
+}
+
+.services-wrapper__item:nth-child(3)::after {
+  background-image: url(../img/services3.png);
+  width: 16px;
+}
+
+.services-wrapper__item-title {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.services-wrapper__item-text {
+  margin-bottom: 32px;
+  line-height: 1.93;
+  color: #bbbbbb;
+}
+.services-wrapper__item-btn {
+  text-transform: uppercase;
+}
+
+.services-wrapper__item-btn a {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 20px;
+  font-weight: 600;
+}
+.services-wrapper__item-btn a::after {
+  content: "";
+  background-image: url(../img/arrow-right.png);
+  width: 11px;
+  height: 7px;
+  position: absolute;
+  transform: translateY(50%);
+  margin-left: 9px;
+}
+
+.testimonials {
+  padding-bottom: 127px;
+  background: #181818;
+  text-align: center;
+}
+
+.testimonials-text {
+  color: #feb960;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.testimonials-title {
+  width: 725px;
+  font-family: "Merriweather", serif;
+  margin: 0 auto;
+  font-size: 40px;
+  margin-bottom: 110px;
+  line-height: 65px;
+}
+
+.testimonials-company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team {
+  text-align: center;
+  padding-bottom: 125px;
+}
+.team-text {
+  color: #feb960;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.team-title {
+  width: 380px;
+  font-family: "Merriweather", serif;
+  margin: 0 auto;
+  font-size: 40px;
+  margin-bottom: 106px;
+  line-height: 65px;
+}
+.team-portfolio {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.team-portfolio__item {
+  text-align: center;
+  padding: 50px 30px 90px;
+  width: 284px;
+  background: #181818;
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+.team-portfolio__img {
+  padding-bottom: 28px;
+}
+.team-portfolio__name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #feb960;
+  text-transform: uppercase;
+  padding-bottom: 13px;
+}
+.team-portfolio__title {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.contact {
+  background: #181818;
+  padding-bottom: 105px;
+  text-align: center;
+}
+
+.contact-text {
+  color: #feb960;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.contact-title {
+  width: 535px;
+  font-family: "Merriweather", serif;
+  margin: 0 auto;
+  font-size: 40px;
+  margin-bottom: 80px;
+  line-height: 65px;
+}
+
+.footer {
+  padding: 100px 0;
+  color: #bababa;
+  background: url(../img/header-bg.jpg) top left/ cover no-repeat fixed;
+}
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  height: 46px;
+}
+.footer-california {
+  width: 156px;
+}
+.footer-california__title {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.footer-california__text {
+  line-height: 2.5;
+}
+.footer-ny {
+  width: 143px;
+}
+.footer-ny__title {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.footer-ny__text {
+  line-height: 2.5;
+}
+.footer-contact {
+  width: 171px;
+}
+.footer-contact__title {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.footer-contact__email {
+}
