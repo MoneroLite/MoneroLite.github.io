@@ -18,7 +18,7 @@ body {
 font-family: 'Open Sans', sans-serif; */
 .header {
   background: url(../img/header-bg.jpg) top left/ cover no-repeat fixed;
-  padding: 331px 0 41px;
+  padding: 200px 0 41px;
   text-align: center;
 }
 .header__title {
@@ -51,6 +51,9 @@ font-family: 'Open Sans', sans-serif; */
   text-decoration: none;
   color: #fff;
 }
+.header-list__item a:hover {
+  color: #f7ac53;
+}
 
 .header-list__item:last-child {
   border-right: none;
@@ -69,6 +72,10 @@ font-family: 'Open Sans', sans-serif; */
   padding-right: 22px;
   text-decoration: none;
   color: #fff;
+}
+
+.header-wrap__link:hover {
+  color: #f7ac53;
 }
 
 .header-wrap__link::after {
@@ -160,6 +167,11 @@ font-family: 'Open Sans', sans-serif; */
   padding-right: 20px;
   font-weight: 600;
 }
+
+.services-wrapper__item-btn a:hover {
+  color: #f7ac53;
+}
+
 .services-wrapper__item-btn a::after {
   content: "";
   background-image: url(../img/arrow-right.png);
@@ -195,6 +207,59 @@ font-family: 'Open Sans', sans-serif; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 105px;
+}
+
+.testimonials-slider {
+  width: 750px;
+  margin: 0 auto;
+}
+.slide {
+  background: #202020;
+  padding: 40px 68px;
+  outline: none;
+}
+.testimonials-slider__text {
+  font-size: 16px;
+  line-height: 2.06;
+  color: #bbbbbb;
+  font-family: "Merriweather", serif;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 52px;
+}
+.testimonials-slider__name {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #feb960;
+  margin-bottom: 15px;
+}
+.testimonials-slider__prof {
+  font-size: 13px;
+}
+
+.testimonials-slider .slick-dots {
+  display: flex !important;
+  list-style: none;
+  justify-content: center;
+}
+.testimonials-slider .slick-dots li {
+  margin-right: 46px;
+  padding: 0;
+}
+
+.testimonials-slider .slick-dots button {
+  font-size: 0;
+  width: 30px;
+  height: 3px;
+  outline: none;
+  border: none;
+  background: #5c5c5c;
+}
+
+.testimonials-slider .slick-dots li.slick-active button {
+  background: #feb960;
 }
 
 .team {
@@ -263,6 +328,43 @@ font-family: 'Open Sans', sans-serif; */
   margin-bottom: 80px;
   line-height: 65px;
 }
+.contact-form {
+  background: #202020;
+  width: 430px;
+  padding: 50px;
+  margin: 0 auto;
+}
+.contact-form input {
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+  height: 35px;
+  border: none;
+  border-bottom: 1px solid #5c5c5c;
+  outline: none;
+  background: #202020;
+  color: #fff;
+  padding: 0 7px;
+}
+
+.contact-form input:focus {
+  border-bottom: 1px solid #feb960;
+}
+.contact-form input::placeholder {
+  color: #fff;
+}
+
+.contact-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #232323;
+  background: #feb960;
+  padding: 20px 38px;
+}
+
+.contact-btn:hover {
+  background: #bb8a4a;
+}
 
 .footer {
   padding: 100px 0;
@@ -308,6 +410,4 @@ font-family: 'Open Sans', sans-serif; */
   font-weight: 600;
   margin-bottom: 25px;
   text-transform: uppercase;
-}
-.footer-contact__email {
 }
