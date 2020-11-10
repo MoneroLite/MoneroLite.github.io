@@ -411,3 +411,166 @@ font-family: 'Open Sans', sans-serif; */
   margin-bottom: 25px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .team-portfolio__item {
+    width: 310px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .header__title {
+    width: 570px;
+  }
+  .testimonials-slider {
+    width: 690px;
+  }
+  .testimonials-company {
+    flex-wrap: wrap;
+  }
+  .testimonials-company__item {
+    margin-right: 75px;
+    margin-bottom: 15px;
+  }
+  .services-wrapper__item {
+    width: 200px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 576px;
+  }
+  .header__title {
+    width: 415px;
+    font-size: 50px;
+    padding: 45px 45px;
+    line-height: 75px;
+  }
+  .header {
+    padding: 120px 0 41px;
+  }
+  .header-list {
+    margin-bottom: 165px;
+  }
+  .services-title {
+    width: 510px;
+    font-size: 33px;
+  }
+  .services-wrapper {
+    flex-direction: column;
+  }
+  .services-wrapper__item {
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+  .testimonials-title {
+    width: 525px;
+    font-size: 34px;
+  }
+  .testimonials-slider {
+    width: 520px;
+  }
+  .footer-logo {
+    display: none;
+  }
+  .team-portfolio__item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .header__title {
+    width: 200px;
+    font-size: 24px;
+    padding: 30px 30px;
+    line-height: 60px;
+  }
+  .header-list {
+    padding-left: 0;
+    margin-bottom: 115px;
+  }
+  .header-wrap {
+    margin-top: 85px;
+  }
+
+  .services-title {
+    width: 280px;
+    font-size: 26px;
+    line-height: 55px;
+  }
+  .testimonials-title {
+    width: 280px;
+    font-size: 26px;
+  }
+
+  .testimonials-company {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .testimonials-company__item {
+    margin-right: 0;
+    margin-bottom: 45px;
+  }
+  .testimonials-slider {
+    width: 285px;
+  }
+  .testimonials-slider .slick-dots {
+    padding-left: 15px;
+  }
+
+  .testimonials-slider .slick-dots li {
+    margin-right: 13px;
+  }
+  .testimonials-slider .slick-dots button {
+    width: 26px;
+    height: 4px;
+  }
+  .team-title {
+    width: 280px;
+    font-size: 26px;
+    line-height: 55px;
+  }
+  .contact-title {
+    width: 280px;
+    font-size: 26px;
+    line-height: 55px;
+  }
+  .contact-form {
+    width: 280px;
+  }
+  .footer-wrap {
+    flex-direction: column;
+  }
+  .footer-california {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 177px;
+  }
+  .footer-ny {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 177px;
+  }
+  .footer-contact {
+    margin: 0 auto;
+    width: 177px;
+  }
+  .footer-california__title {
+    margin-bottom: 7px;
+  }
+  .footer-ny__title {
+    margin-bottom: 7px;
+  }
+  .footer-contact__title {
+    margin-bottom: 7px;
+  }
+}
