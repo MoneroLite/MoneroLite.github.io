@@ -49,6 +49,10 @@ body {
   text-decoration: none;
   color: #fff;
 }
+.header-top__menu-item a:hover {
+  color: #ed145b;
+}
+
 .header-conten {
   text-align: center;
 }
@@ -76,6 +80,9 @@ body {
 }
 .header-btn {
   padding: 19px 52px;
+}
+.btn:hover {
+  box-shadow: 0px 5px 53px -10px rgba(0, 0, 0, 0.44) inset;
 }
 
 .about {
@@ -345,6 +352,7 @@ body {
   content: "";
   background-image: url(../img/info3.png);
   height: 47px;
+  width: 49px;
 }
 .info-wrap__item:nth-child(4)::before {
   content: "";
@@ -581,4 +589,192 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media screen and (max-width: 1690px) {
+  .about-macbook {
+    position: relative;
+    width: 100%;
+  }
+  .about-title {
+    margin: 0 auto;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  .about-line {
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+  .about-text {
+    width: 466px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  .about {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .prices-wrap__item {
+    width: 228px;
+  }
+  .prices-wrap__top {
+    padding: 35px 75px 54px;
+  }
+
+  .prices-wrap__bottom {
+    padding: 64px 11px 31px;
+  }
+  .prices-wrap__option {
+    left: 7%;
+  }
+
+  .info-wrap {
+    justify-content: space-around;
+  }
+  .join-wrap__text {
+    width: 520px;
+  }
+  .news-wrap {
+    justify-content: space-around;
+  }
+  .download__img {
+    left: -370px;
+  }
+  .download-content {
+    margin-left: -362px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .header-text {
+    width: 100%;
+  }
+  .prices-wrap {
+    flex-direction: column;
+  }
+  .prices-wrap__item {
+    width: 267px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .info-wrap {
+    justify-content: space-between;
+  }
+  .join-wrap__text {
+    width: 400px;
+  }
+  .text-slide__content {
+    width: 100%;
+  }
+  .download__img {
+    display: none;
+  }
+  .download-content {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .download-content__line {
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 576px;
+  }
+  .service-text {
+    width: 100%;
+  }
+  .service-text {
+    width: 100%;
+  }
+  .prices-text {
+    width: 100%;
+  }
+  .news__text {
+    width: 100%;
+  }
+  .desription__text {
+    width: 100%;
+  }
+  .service-wrap {
+    flex-direction: column;
+  }
+  .service-wrap__item {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .service-wrap__img {
+    margin-bottom: 10px;
+  }
+  .info-wrap {
+    justify-content: space-around;
+  }
+  .download-content__title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .header-top__menu {
+    display: none;
+  }
+  .about-title {
+    width: 100%;
+    text-align: center;
+  }
+  .about-text {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  .info-wrap__text {
+    width: 190px;
+  }
+  .join-wrap {
+    flex-direction: column;
+  }
+  .join-wrap__text {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .news-wrap__item {
+    width: 100%;
+  }
+  .news-wrap__img {
+    width: 100%;
+  }
+  .news-wrap__text {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  .download-content__title {
+    width: 100%;
+    text-align: center;
+  }
+  .download-content__text {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-wrap {
+    flex-direction: column;
+  }
+  .footer-wrap__copyrate {
+    margin-bottom: 25px;
+  }
 }
