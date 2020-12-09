@@ -39,6 +39,38 @@ button:hover {
 .menu {
   margin-left: auto;
 }
+.menu__btn {
+  width: 30px;
+  height: 30px;
+  display: none;
+  position: relative;
+}
+.menu__btn::after,
+.menu__btn::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  left: 0;
+}
+
+.menu__btn::before {
+  top: 0;
+}
+
+.menu__btn::after {
+  bottom: 0;
+}
+.menu__btn span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: #000000;
+  position: absolute;
+  left: 0;
+  top: 14px;
+}
 .menu__list {
   display: flex;
 }
